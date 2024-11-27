@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb://db_encrypt:95rE5PJIFJfuH7Ru@cluster0.4f14o.mongodb.net/encrypt', {
+        await mongoose.connect('mongodb://vercel-admin-user:cVO7guVVSGh4ssxc@cluster0.4f14o.mongodb.net/encrypt', {
             // useNewUrlParser: true,
             // useUnifiedTopology: true,
         });
